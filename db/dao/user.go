@@ -1,8 +1,8 @@
 package dao
 
 import (
+	"db/utils"
 	"fmt"
-	"proj/db/utils"
 )
 
 /**
