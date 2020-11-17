@@ -1,0 +1,65 @@
+#!/bin/bash
+PROGRAM=HelloService
+PROGRAM_PATH=`pwd`
+
+
+start() 
+{ 
+    stop; 
+    cd $PROGRAM_PATH 
+    echo -e "start $PROGRAM\c" 
+    cd $PROGRAM_PATH  
+    echo -e "start $PROGRAM\c"  
+    $PROGRAM_PATH/bin/$PROGRAM 1>>./run.log 2>&1 
+} 
+ 
+stop() 
+{ 
+    echo -e "stop $PROGRAM\c" 
+    count=0 
+    while [ $count -lt 9 ] 
+    do 
+        count=$((count+1)) 
+        proc_count=`ps aux|grep $PROGRAM|grep $PROGRAM_PATH|grep -v grep|grep -v supervise|grep -v "go build"|wc -l` 
+        if [ $proc_count -ge 1 ] 
+        then 
+            if [ $count -lt 9 ] 
+            then 
+                `ps aux|grep $PROGRAM|grep $PROGRAM_PATH|grep -v grep|grep -v supervise|awk '{print $2}'|xargs kill -SIGUSR1`
+            else 
+                `ps aux|grep $PROGRAM|grep $PROGRAM_PATH|grep -v grep|grep -v supervise|awk '{print $2}'|xargs kill -9`
+            fi 
+            echo -e ".\c" 
+            sleep 1 
+        else  
+            echo -e "\t\033[32m[ok]\033[0m" 
+            return 
+        fi 
+    done 
+    echo -e "\t\033[31m[failed]\033[0m" 
+    exit -1 
+} 
+
+reopen() 
+{  
+    echo -e "reopen $PROGRAM\c"  
+    proc_count=`ps aux|grep $PROGRAM|grep $PROGRAM_PATH|grep -v grep|grep -v supervise|wc -l`  
+    if [ $proc_count -ge 1 ]  
+    then  
+            `ps aux|grep $PROGRAM|grep $PROGRAM_PATH|grep -v grep|grep -v supervise|awk '{print $2}'|xargs kill -SIGUSR2` 
+    fi  
+}  
+ 
+case "$1" in 
+    'start')  
+        start;; 
+    'stop')  
+        stop;; 
+    'restart') 
+        start;; 
+    'reopen') 
+        reopen;; 
+    *) 
+        start;;
+esac 
+

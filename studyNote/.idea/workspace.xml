@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a5246f6-7467-49eb-9f30-b4743a2bef49" name="Default Changelist" comment="111">
+      <change afterPath="$PROJECT_DIR$/../micode.be.xiaomi.com/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/studyNote.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter01_类型/change.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter01_类型/pointer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter01_类型/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter02_表达式/for.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter02_表达式/tag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter03_函数/3.1函数定义.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter03_函数/3.2变参.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter03_函数/3.3返回值.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter03_函数/3.4匿名函数.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter03_函数/3.5延迟调用.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter03_函数/3.6错误处理.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter04_数据/4.1Array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter04_数据/4.2Slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter04_数据/4.3Map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter04_数据/4.4Struct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter05_方法/5.1方法定义.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter05_方法/5.2匿名字段.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter05_方法/5.3方法集.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter05_方法/5.4表达式.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter05_方法/函数与方法的区别.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter06_接口/6.1接口定义.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter06_接口/6.2执行机制.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter06_接口/6.3接口转换.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter06_接口/6.4接口技巧.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Go学习笔记/chapter08_工程管理/总结.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/int和string转换.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/指针.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db1/mysql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db1/redis.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form/login.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/form/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goTour/类型/结构体文法.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/.gvm/gos/go1.14" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1kLoqxK4VboKmoso15hwyTpDy0Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build studyNote/goTour/类型">
+    <configuration name="go build studyNote/base" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="studyNote" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/base/int和string转换.go" />
+      <package value="studyNote/base" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build studyNote/goTour/类型" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="studyNote" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/goTour/类型/结构体文法.go" />
+      <package value="studyNote/goTour/类型" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build studyNote/goTour/类型" />
+        <item itemvalue="Go Build.go build studyNote/base" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="111" />
+    <option name="LAST_COMMIT_MESSAGE" value="111" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>
